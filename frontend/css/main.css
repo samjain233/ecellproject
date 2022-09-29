@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #1A1A1A;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content{
+    margin: 25px 10vw;
+    background-color: #1A1A1A;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.right{
+    color: white;
+}
+
+
+
+/* defining colors */
+.color1{
+    color :white;
+}
+.color2{
+    
+}

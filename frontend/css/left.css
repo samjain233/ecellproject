@@ -1,0 +1,27 @@
+/* left side of the page  */
+.left{
+    background-color: #282828;
+    border-radius: 20px;
+    padding: 15px 15px;
+}
+
+.first-section{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.avtar img{
+    height: 5vw;
+    width: 5vw;
+    /* border: 1px solid grey; */
+    border-radius: 10px;
+}
+
+.first-section .data{
+    font-size: 15px;
+    
+}
+
+.first-section .rank{
+    margin-top: 30px;
+}
