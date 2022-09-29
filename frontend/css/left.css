@@ -1,13 +1,21 @@
 /* left side of the page  */
 .left{
     background-color: #282828;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 15px 15px;
+    margin: 7px;
 }
 
 .first-section{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+    'avtar data data'
+    'editProfile editProfile editProfile';
+
+}
+
+.avtar{
+    grid-area: avtar;
 }
 
 .avtar img{
@@ -19,9 +27,42 @@
 
 .first-section .data{
     font-size: 15px;
-    
+    grid-area: data;
 }
 
 .first-section .rank{
     margin-top: 30px;
+}
+
+.first-section .edit-profile-btn{
+    background-color: #283A2E;
+    width: 100%;
+    text-align: center;
+    grid-area: editProfile;
+    border-radius: 5px;
+    margin: 10px 0px;
+    padding: 8px 0px;
+}
+
+.first-section .edit-profile-btn a{
+    text-decoration: none;
+    color : #2AA149;
+    cursor: pointer;
+    font-size: 14px;
+    /* padding: 25px 0px; */
+}
+
+
+/* second section */
+.second-section .head{
+    margin: 20px 0px;
+}
+
+.second-section .short-text{
+    font-size: 11px;
+    margin: 2px 0px;
+}
+
+.second-section .box .container{
+    margin-bottom: 12px;
 }

@@ -9,7 +9,7 @@ body{
 }
 
 .content{
-    margin: 25px 10vw;
+    margin: 25px 12vw;
     background-color: #1A1A1A;
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -26,5 +26,16 @@ body{
     color :white;
 }
 .color2{
-    
+    color: #BDBFC2;
+}
+.bold{
+    font-weight: bold;
+}
+
+
+/*horizontal rule*/
+.hr{
+    height: 1px;
+    width: 100%;
+    background-color: gray;
 }
