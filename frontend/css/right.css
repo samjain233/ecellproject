@@ -1,0 +1,24 @@
+.right{
+    
+}
+.right .solved-questions{
+    background-color: #282828;
+    border-radius: 10px;
+    padding: 15px 15px;
+    margin: 7px;
+}
+
+.right .solved-questions .questions ul{
+    list-style-type: none;
+}
+
+.right .solved-questions .questions ul li{
+    padding: 20px;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.right .solved-questions .questions ul li:nth-child(odd){
+    background-color: #373737;
+}

@@ -66,3 +66,27 @@
 .second-section .box .container{
     margin-bottom: 12px;
 }
+
+
+
+/* third section  */
+.third-section .heading{
+    margin: 10px 0px;
+}
+
+.third-section .language-learned{
+    margin: 20px 0px;
+
+}
+.third-section .language-learned .s15p{
+    font-size: 11px;
+    display: inline;
+    float:right;
+}
+
+
+
+/* fourth section  */
+.fourth-section .heading{
+    margin: 10px 0px;
+}
