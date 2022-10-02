@@ -13,23 +13,31 @@
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/left.css">
     <link rel="stylesheet" href="css/right.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src='https://kit.fontawesome.com/2121515fbf.js' crossorigin='anonymous'></script>
 </head>
 
 <body>
     <!-- navbar-------------------------------------------------------------------------------- -->
     <div>
         <nav class="navbar">
-            <div class="logo">
+            <div class="logo-container">
                 <img src="logo.png" alt="leetcode" class="logo">
             </div>
-            <ul class="nav">
+            <ul class="nav bold-700">
                 <li><a href="#">Explore</a></li>
                 <li><a href="#">Problems</a></li>
                 <li><a href="#">Contest</a></li>
                 <li><a href="#">Discuss</a></li>
-                <li><a href="#">Interview</a></li>
-                <li><a href="#">Store</a></li>
+                <li><a href="#">Interview <i class="fa-solid fa-angle-down"></i></a></li>
+                <li><a href="#" style="color: #EB9718;">Store <i class="fa-solid fa-angle-down"></i></a></li>
             </ul>
+            <div class="right-nav">
+                <p class="padding-10" style="color: #EB9718; background-color: #3E3E3E;">Premium</p>
+                <i class="fa-solid fa-bell padding-10" ></i>
+                <p><i class="fa-solid fa-fire padding-10"></i>0</p>
+                <img class="padding-10" src="images/default_avatar.jpg" alt="">
+            </div>
         </nav>
     </div>
     <!-- -------------------------------------------------------------------------------------- -->
@@ -159,7 +167,7 @@
                                 </div>
                             </div>
                             <div class="progressbar">
-                                
+
                             </div>
                         </div>
                     </div>
@@ -212,6 +220,41 @@
         </div>
     </div>
 
+    <footer>
+        <div class="footer">
+            <!-- copyright div  -->
+            <div class="copyright">
+                <p class="color1">Copyright © 2022 LeetCode</p>
+            </div>
+
+            <div class="tabs">
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Bug Bounty</a></li>
+                    <li><a href="#">Assessment</a></li>
+                    <li><a href="#">Students</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="location">
+                <img src="images/unitedstates.svg" alt="">
+                <p>United States</p>
+            </div>
+
+
+
+        </div>
+    </footer>
+    <!-- sticky buttons         -->
+    <div class="icon sticky-button" id="upward">
+        <i class='fas fa-reply' style='font-size:28px;color:#126DCA'></i>
+    </div>
+    <div class="icon sticky-button">
+        <i class='far fa-grin' style='font-size:28px;color:#126DCA'></i>
+    </div>
 </body>
 
 </html>

@@ -6,6 +6,7 @@
     border-radius: 10px;
     padding: 15px 15px;
     margin: 7px;
+    box-shadow: 2px 2px 10px black;
 }
 
 .right .solved-questions .questions ul{
@@ -37,6 +38,7 @@
     margin: 7px;
     height: 150px;
     color: #9FA1A4;
+    box-shadow: 2px 2px 10px black;
 }
 
 .first-row .user-stats .container{
@@ -69,6 +71,7 @@
     padding: 15px 15px;
     margin: 7px;
     height: 150px;
+    box-shadow: 2px 2px 10px black;
     display: grid;
     grid-template-areas: 
     'top top top image image'
