@@ -43,12 +43,3 @@ body{
     background-color: gray;
 }
 
-/* box element  */
-.box-element{
-    padding: 5px 15px;
-    background-color: #3E3E3E;
-    display: inline;
-    border-radius: 15px;
-    color:#BDBFC2;
-    font-size: 13px;
-}

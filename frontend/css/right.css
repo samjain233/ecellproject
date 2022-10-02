@@ -22,3 +22,75 @@
 .right .solved-questions .questions ul li:nth-child(odd){
     background-color: #373737;
 }
+
+
+/* first row */
+.first-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/* user stats  */
+.first-row .user-stats{
+    background-color: #282828;
+    border-radius: 10px;
+    padding: 15px 15px;
+    margin: 7px;
+    height: 150px;
+    color: #9FA1A4;
+}
+
+.first-row .user-stats .container{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+.first-row .user-stats .container .circularbar{
+    /* background-color: yellow;
+    height: 10em; */
+}
+
+.circularbar .outer-circle{
+    background-color: #282828;
+    border: 4px solid #373737;
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
+}
+
+.first-row .user-stats .container .progressbar{
+    background-color: orange;
+    /* height: 10em; */
+}
+
+
+.first-row .badges{
+    background-color: #282828;
+    border-radius: 10px;
+    padding: 15px 15px;
+    margin: 7px;
+    height: 150px;
+    display: grid;
+    grid-template-areas: 
+    'top top top image image'
+    'bottom bottom bottom image image';
+}
+
+.first-row .badges .top{
+    height : 40px;
+    background-color: yellow;
+    grid-area: top;
+}
+
+.first-row .badges .bottom{
+    height: 40px;
+    background-color: green;
+    grid-area: bottom;
+}
+
+.first-row .badges .image{
+    grid-area: image;
+}
+
+.first-row .badges .image img{
+    height: 30px;
+}
