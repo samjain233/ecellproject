@@ -10,25 +10,31 @@
 .first-section {
     display: grid;
     grid-template-areas:
-        'avtar data data'
+        'flex flex flex'
         'editProfile editProfile editProfile';
 
 }
 
+.first-section-flex{
+    grid-area:flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .avtar {
-    grid-area: avtar;
+    
 }
 
 .avtar img {
-    height: 5vw;
-    width: 5vw;
+    height: 70px;
+    width: 70px;
     /* border: 1px solid grey; */
     border-radius: 10px;
 }
 
 .first-section .data {
     font-size: 15px;
-    grid-area: data;
+    margin-left: 10px;
 }
 
 .first-section .rank {
